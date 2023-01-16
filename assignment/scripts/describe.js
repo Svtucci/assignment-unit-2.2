@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// declaring a variable named Dane
+// it is a conditional saying name must equal Mary for the console to show "Hi, Mary"
+// if not the console will say "how do you do"
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declaring secret, declaring code = 123
+// if code is equality, it must exactly equal 123, and if thats true then secret will be set as super and code with be multiplied by 2
+// if code is greater than 250, which it isnt, secret will declare duper in the code
+// console log will say super
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declaring if student =true age =34 and zip = 55407
+// if a student is equal to true and zip is greater than 80000, will read student on a west coast
+// or else if student false, age less than 30 will read what are your hobbies
+// else student is true console will read welcome to prime or will read how about the weather
 
 //CODE
 /*
@@ -131,11 +131,11 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
-let colorTwo = 'blue';
+let colorTwo = 'blue';   FIX: this is mixed with line 133, mixed up the values
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple';  FIX: its missing colorTwo, add a statement 
 }
 */
 
@@ -145,9 +145,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+const time = 4;  FIX: change that to let time 
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) {   FIX:  change vertical lines to & 
   console.log('throw away the food!');
 }
 */
@@ -158,10 +158,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-const minAge = 21;
+const minAge = 21;   
 
-if(minAge <= age) {
-  console.log('no entry');
+if(minAge <= age) {    FIX: change symbol to >=
+  console.log('no entry');  FIX:  swap 'no entry' with 'enter' 
 } else {
   console.log('enter');
 }
